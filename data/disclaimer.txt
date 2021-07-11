@@ -1,0 +1,2 @@
+data was downloaded from kaggle and created by City of New York:
+https://www.kaggle.com/new-york-city/nyc-property-sales?fbclid=IwAR2SipzrEBMOxLMtLA7kLO95F22WkZU3cu45PIa93oQTUyoIItC2ePrYgBg

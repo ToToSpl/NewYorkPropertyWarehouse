@@ -1,0 +1,21 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "apollo-server-express": "^2.25.2",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "tsc": "^2.0.3",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.34",
+    "typescript": "^4.3.4"
+  }
+}
