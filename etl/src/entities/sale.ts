@@ -1,6 +1,7 @@
 import { Field, Int, ObjectType } from "type-graphql";
 import {
   BaseEntity,
+  Column,
   Entity,
   JoinColumn,
   OneToOne,
@@ -31,4 +32,8 @@ export class Sale extends BaseEntity {
   @OneToOne(() => Location)
   @JoinColumn()
   location: Location;
+
+  @Field({ nullable: true })
+  @Column({ nullable: true })
+  salePrice: number;
 }

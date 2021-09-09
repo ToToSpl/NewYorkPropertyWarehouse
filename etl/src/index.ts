@@ -21,6 +21,8 @@ const main = async () => {
     synchronize: true,
   });
 
+  // await Sale.delete({});
+
   const app = express();
 
   if (__prod__) app.set("trust proxy", 1);

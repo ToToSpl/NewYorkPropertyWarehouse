@@ -88,6 +88,7 @@ export class LoaderResolver {
         sale.date = date;
         sale.location = location;
         sale.property = property;
+        sale.salePrice = row.SALE_PRICE != " -  " ? row.SALE_PRICE : -1;
         await Sale.save(sale);
       })
       .on("end", async (rowCount: number) => {
